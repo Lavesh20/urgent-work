@@ -19,7 +19,7 @@ export default function CareersSectionComponent() {
             </div>
             <div className="p-6">
               <p className="text-[#5A6C7F] mb-6 h-32">
-                At TaxTalent, we're on a mission to empower accountants to run successful firms, by building elite teams in The Philippines.
+                At TaxTalent, we're on a mission to empower accountants to run successful firms, by building elite teams in The India.
               </p>
               <Link
                 href="#"
