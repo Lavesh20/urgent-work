@@ -9,7 +9,7 @@ export default function CareersSectionComponent() {
         <h2 className="text-center text-[#0070F3] text-sm font-semibold uppercase mb-2">CAREERS</h2>
         <h1 className="text-center text-[#1E3A5F] text-4xl font-bold mb-4">Careers with Global Firms</h1>
         <p className="text-center text-[#5A6C7F] mb-12">
-          See how TeamUp can help you find your next accounting job.
+          See how TaxTalent can help you find your next accounting job.
         </p>
         
         <div className="grid md:grid-cols-3 gap-8">
@@ -36,7 +36,7 @@ export default function CareersSectionComponent() {
             </div>
             <div className="p-6">
               <p className="text-[#5A6C7F] mb-6 h-32">
-                We're looking for talented, ambitious senior accountants, tax preparers, bookkeepers, and administrative staff in The Philippines. Here's where you can learn more and apply.
+                We're looking for talented, ambitious senior accountants, tax preparers, bookkeepers, and administrative staff in The India. Here's where you can learn more and apply.
               </p>
               <Link
                 href="#"

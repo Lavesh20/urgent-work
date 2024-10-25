@@ -39,7 +39,7 @@ export default function ContactSectionComponent() {
             </div>
             <div className="p-6">
               <p className="text-[#5A6C7F] mb-6">
-                We're looking for talented, ambitious senior accountants, tax preparers, bookkeepers, and administrative staff in The Philippines. Here's where you can learn more and apply.
+                We're looking for talented, ambitious senior accountants, tax preparers, bookkeepers, and administrative staff in The India. Here's where you can learn more and apply.
               </p>
               <Link
                 href="https://tally.so/r/w79W5R"
