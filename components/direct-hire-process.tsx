@@ -41,7 +41,7 @@ export default function DirectHireProcess() {
             {steps.map((step, index) => (
               <div 
                 key={index} 
-                className="bg-white p-6 flex flex-col rounded-t-lg w-full max-w-[280px] shadow-[0_4px_6px_rgba(0,0,0,0.1),0_1px_3px_rgba(0,0,0,0.08)] hover:shadow-[0_10px_15px_rgba(0,0,0,0.1),0_4px_6px_rgba(0,0,0,0.05)] transition-all duration-300 ease-in-out transform hover:-translate-y-1"
+                className="bg-white p-6 flex flex-col rounded-t-lg w-full max-w-[280px] shadow-[0_4px_6px_rgba(0,0,0,0.1),0_1px_3px_rgba(0,0,0,0.08)] hover:shadow-[0_10px_15px_rgba(0,0,0,0.1),0_4px_6px_rgba(0,0,0,0.05)] transition-all duration-300 ease-in-out transform hover:-translate-y-1 mb-6"
               >
                 <span className="text-5xl font-bold text-green-500 mb-4">{step.number}</span>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{step.title}</h3>
