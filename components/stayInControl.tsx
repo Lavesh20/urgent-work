@@ -25,8 +25,8 @@ export default function StayInControl() {
                 "How well do they integrate with your company culture?",
                 "Where do their primary allegiances lie?",
               ],
-              color: "pink-50",
-              borderColor: "pink-200",
+              bgColor: "bg-pink-50",
+              borderColor: "border-pink-200",
               number: 1,
             },
             {
@@ -37,8 +37,8 @@ export default function StayInControl() {
                 "Minimum commitment periods",
                 "Annual price escalations",
               ],
-              color: "orange-50",
-              borderColor: "orange-200",
+              bgColor: "bg-orange-50",
+              borderColor: "border-orange-200",
               number: 2,
             },
             {
@@ -48,8 +48,8 @@ export default function StayInControl() {
                 "Limited control over staff rotation",
                 "Risk of knowledge loss during transitions",
               ],
-              color: "pink-50",
-              borderColor: "pink-200",
+              bgColor: "bg-pink-50",
+              borderColor: "border-pink-200",
               number: 3,
             },
             {
@@ -59,8 +59,8 @@ export default function StayInControl() {
                 "Reduced ability to implement your standards",
                 "Indirect communication channels",
               ],
-              color: "orange-50",
-              borderColor: "orange-200",
+              bgColor: "bg-orange-50",
+              borderColor: "border-orange-200",
               number: 4,
             },
             {
@@ -70,15 +70,15 @@ export default function StayInControl() {
                 "Limited control over data handling practices",
                 "Potential compliance risks",
               ],
-              color: "pink-50",
-              borderColor: "pink-200",
+              bgColor: "bg-pink-50",
+              borderColor: "border-pink-200",
               number: 5,
             },
           ].map((card, index) => (
-            <Card key={index} className={`bg-${card.color} border-${card.borderColor}`}>
+            <Card key={index} className={`${card.bgColor} ${card.borderColor} border`}>
               <CardContent className="p-4">
                 <h2 className="font-semibold flex items-center gap-2">
-                  <span className={`bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center`}>
+                  <span className="bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center">
                     {card.number}
                   </span>
                   {card.title}
