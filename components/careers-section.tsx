@@ -21,12 +21,7 @@ export default function CareersSectionComponent() {
               <p className="text-[#5A6C7F] mb-6 h-32">
                 At TaxTalent, we're on a mission to empower accountants to run successful firms, by building elite teams in The India.
               </p>
-              <Link
-                href="#"
-                className="block w-full bg-[#0070F3] text-white text-center py-3 rounded-full font-semibold hover:bg-[#0050D3] transition-colors"
-              >
-                Our Story
-              </Link>
+              
             </div>
           </div>
           
@@ -55,12 +50,7 @@ export default function CareersSectionComponent() {
               <p className="text-[#5A6C7F] mb-6 h-32">
                 We're not a BPO. If you're hired, you'll work directly with your accounting firm. This means more autonomy, competitive wages, and a fully remote, work-from-home job.
               </p>
-              <Link
-                href="#"
-                className="block w-full bg-[#0070F3] text-white text-center py-3 rounded-full font-semibold hover:bg-[#0050D3] transition-colors"
-              >
-                Watch Why TeamUp
-              </Link>
+             
             </div>
           </div>
         </div>
