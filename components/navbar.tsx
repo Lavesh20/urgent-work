@@ -39,16 +39,14 @@ export default function NavbarComponent() {
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               {menuItems.map((item) => (
-                <Link key={item.href} href={item.href} className="text-white hover:text-blue-200 transition-colors">
+                <Link key={item.href} href={item.href} className="text-white hover:text-blue-200 transition-colors text-xl">
                   {item.label}
                 </Link>
               ))}
-              <Link
-                href="/calendar"
-                className="bg-sky-300 text-blue-900 hover:bg-sky-200 rounded "
-              >
-                Schedule a Call
-              </Link>
+              <Button variant="outline" className="border-2 border-white text-white bg-transparent hover:bg-blue-700  text-base md:text-xl px-4 md:px-6 py-2 md:py-3 w-full md:w-auto">
+                <Link href="/calendar">
+                  Schedule a Call
+                </Link> </Button>
             </div>
             <button 
               className="md:hidden text-white focus:outline-none" 
@@ -73,7 +71,7 @@ export default function NavbarComponent() {
                   <Link 
                     key={item.href} 
                     href={item.href} 
-                    className="block py-2 text-white hover:text-blue-200 transition-colors"
+                    className="block py-2 text-white hover:text-blue-200 transition-colors text-xl text-center"
                     onClick={toggleMenu}
                   >
                     {item.label}
@@ -82,7 +80,7 @@ export default function NavbarComponent() {
                
                 <Link
                   href="/calendar"
-                  className="block w-full mt-4 py-2 text-center text-white bg-sky-300 hover:bg-sky-200"
+                  className="block w-full mt-4 py-2 text-center text-lg text-black bg-sky-300 hover:bg-sky-200"
                   
                 >
                   Schedule a Call
